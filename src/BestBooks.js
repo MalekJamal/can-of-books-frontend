@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
 class BestBooks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      books: []
-    }
+      books: [],
+    };
   }
 
   /* TODO: Make a GET request to your API to fetch all the books from the database  */
 
   render() {
-
     /* TODO: render all the books in a Carousel */
 
     return (
@@ -24,7 +23,7 @@ class BestBooks extends React.Component {
           <h3>No Books Found :(</h3>
         )}
       </>
-    )
+    );
   }
 }
 
