@@ -1,7 +1,7 @@
 # Start your own "Can of Books" App
 
 This repository has starter code to begin work on creating your own online bookshelf.
-
+> **[Live URL](https://deploy-preview-2--resonant-cat-998a22.netlify.app/)**
 ## What can books do?
 
 Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
@@ -13,28 +13,55 @@ Clone this repo to your own account with the green "Use this template" button. T
 # Books
 
 **Author**: Malek Hamdan
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.1
 
 ## Overview
 
 > this website show a full list of best books.
 
 ## Getting Started
+### .1
+1. Enter your email and password to login.
+2. Login with your google acount.
+3. login with your facebook account.
+### 2. After login you can see your info under profile page.
 
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
 ## Architecture
+- [react-bootstrap](https://react-bootstrap.github.io/)
+- [axios](https://www.npmjs.com/package/axios)
+- [auth0](https://auth0.com/)
+- [reactrouter](https://reactrouter.com/)
 
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
 ## Change Log
 
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
+09-08-2022 12:59am - Application now has a fully-functional express server, with a GET route for the location resource, and server database using mongo DB.
 
 ## Estimates
 
-<!-- See below -->
+Name of feature: Authentication
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5 pm
+
+Finish time: 9 pm
+
+Actual time needed to complete: 4 hours
+
+***
+Name of feature: send a request to the server
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 7 pm
+
+Finish time: 12 am
+
+Actual time needed to complete: 5 hours
 
 ## Credit and Collaborations
+- **Malek Hamdan**
