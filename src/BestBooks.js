@@ -28,7 +28,7 @@ class BestBooks extends React.Component {
       <>
         <h2>My Essential Lifelong Learning &amp; Formation Shelf</h2>
         {this.state.books.length ? (
-          <DisplayCarousel booksData={this.state.books} />
+          <DisplayCarousel booksData={this.state.books} key={1+3}/>
         ) : (
           <h3>No Books Found :(</h3>
         )}

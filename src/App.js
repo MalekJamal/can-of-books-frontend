@@ -8,6 +8,7 @@ import Profile from "./components/Profile";
 import About from "./About";
 import { useAuth0 } from "@auth0/auth0-react";
 import Welcome from "./components/Welcome";
+import BookFormModal from "./components/BookFormModal";
 function App() {
   const { isAuthenticated, loginWithRedirect } = useAuth0();
 
@@ -19,10 +20,24 @@ function App() {
           {isAuthenticated && (
             <Route exact path="/" element={<BestBooks />}></Route>
           )}
+
           {!isAuthenticated && (
             <Route exact path="/" element={<Welcome />}></Route>
           )}
-
+          {isAuthenticated && (
+            <Route exact path="/dashboard" element={<BookFormModal />}></Route>
+          )}
+          {!isAuthenticated && (
+            <Route
+              exact
+              path="/dashboard"
+              element={
+                <Welcome
+                  msg={"You Can't see your dashboard if didn't login!😊"}
+                />
+              }
+            ></Route>
+          )}
           {/* PLACEHOLDER: add a route with a path of '/about' that renders the `About` component */}
           <Route exact path="/about" element={<About />}></Route>
           {isAuthenticated && (

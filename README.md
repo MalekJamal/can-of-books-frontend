@@ -34,11 +34,8 @@ Clone this repo to your own account with the green "Use this template" button. T
 - [reactrouter](https://reactrouter.com/)
 
 
-## Change Log
 
-
-
-09-08-2022 12:59am - Application now has a fully-functional express server, with a GET route for the location resource, and server database using mongo DB.
+> 09-08-2022 12:59am - Application now has a fully-functional express server, with a GET route for the location resource, and server database using mongo DB.
 
 ## Estimates
 

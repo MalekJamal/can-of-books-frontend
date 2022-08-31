@@ -36,6 +36,15 @@ class Header extends React.Component {
             Profile
           </Link>
         </NavItem>
+        <NavItem>
+          <Link
+            to="/dashboard"
+            className="nav-link"
+            style={{ color: "white", margin: "5px 20px" }}
+          >
+            DashBoard
+          </Link>
+        </NavItem>
         {/* PLACEHOLDER: render a navigation link to the about page */}
         <div style={{ float: "right", position: "relative" }}>
           <Login />
